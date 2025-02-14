@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=3 uid="uid://bifkilwuli616"]
+
+[ext_resource type="Script" path="res://Scripts/phone_image.gd" id="1_chbqg"]
+
+[node name="PhoneImage" type="Node2D"]
+script = ExtResource("1_chbqg")
+
+[node name="background" type="CanvasLayer" parent="."]
+
+[node name="Phone" type="ColorRect" parent="background"]
+modulate = Color(1, 1, 1, 0.286275)
+offset_left = 324.0
+offset_top = 3.0
+offset_right = 900.0
+offset_bottom = 651.0
+color = Color(0, 0, 0, 1)
