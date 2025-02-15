@@ -2,15 +2,20 @@
 
 [ext_resource type="Script" path="res://Scripts/phone_image.gd" id="1_chbqg"]
 
-[node name="PhoneImage" type="Node2D"]
+[node name="ChatApp" type="Node2D"]
 script = ExtResource("1_chbqg")
 
 [node name="background" type="CanvasLayer" parent="."]
 
-[node name="Phone" type="ColorRect" parent="background"]
-modulate = Color(1, 1, 1, 0.286275)
-offset_left = 324.0
-offset_top = 3.0
-offset_right = 900.0
-offset_bottom = 651.0
-color = Color(0, 0, 0, 1)
+[node name="Side" type="ColorRect" parent="background"]
+offset_left = -8.0
+offset_top = -8.0
+offset_right = 313.0
+offset_bottom = 672.0
+color = Color(0.82606, 0.82606, 0.82606, 1)
+
+[node name="Chat" type="ColorRect" parent="background"]
+offset_left = 304.0
+offset_top = -72.0
+offset_right = 1283.0
+offset_bottom = 779.0
